@@ -295,8 +295,8 @@ cd ${SRCDIR}/${FREETDS}
 ./configure --enable-msdblib --prefix=${INSTALLDIR}
 make
 make install
-touch ${INSTALLDIR}/lib_freetds/include/tds.h
-touch ${INSTALLDIR}/lib_freetds/lib/libtds.a
+touch ${INSTALLDIR}/include/tds.h
+touch ${INSTALLDIR}/lib/libtds.a
 
 #PHP 5
 echo ###################
